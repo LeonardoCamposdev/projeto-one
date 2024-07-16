@@ -1,0 +1,53 @@
+.galeria-bg{
+  background: url(../../imagens/capa-galeria.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left center;
+}
+
+.galeria-introducao{
+  padding-top: 150px;
+}
+
+.galeria-introducao h1{
+  font-size: 4rem;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 8px;
+  text-shadow: 6px 6px black;
+}
+
+.galeria-introducao p{
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  padding-top: 120px;
+  text-align: center;
+  letter-spacing: 5px;
+  text-shadow: 4px 4px black;
+  margin-bottom: 40px;
+}
+
+@media (max-width:800px){
+  .galeria-bg{
+    background-position: center center;
+  }
+
+  .galeria-introducao{
+    padding-top: 100px;
+  }
+
+  .galeria-introducao h1{
+    font-size: 3rem;
+  }
+
+  .galeria-introducao p{
+    font-size: 1rem;
+    padding-top: 20px;
+  }
+}
+
+@media (max-width:400px){
+  .galeria-introducao h1{
+    font-size: 2.7rem;
+  }
+}

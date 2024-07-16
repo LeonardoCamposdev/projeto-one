@@ -1,0 +1,68 @@
+@import "global/global.css";
+@import "global/header/header.css";
+@import "global/footer/footer-contato.css";
+@import "global/footer/footer-conteudo.css";
+
+/*HOME */
+@import "home/introducao.css";
+@import "home/categorias.css";
+@import "home/beneficios.css";
+@import "home/propaganda.css";
+@import "home/clientes.css";
+
+
+/*QUEM-SOMOS*/
+@import "quem-somos/quem-somos.css";
+@import "quem-somos/quem-somos-introducao.css";
+@import "quem-somos/quem-somos-dna.css";
+
+
+/*GALERIA*/
+@import "galeria/galeria.css";
+@import "galeria/galeria-linhas.css";
+
+/* CARDIO */
+@import "cardio/cardio.css";
+
+
+/*CONTATO*/
+@import "contato/contato.css";
+
+/*ULTILIDADES */
+@import "ultilidades/tipografia.css";
+@import "ultilidades/cores.css";
+@import "ultilidades/formulario.css";
+/* ANIMAÇÃO AO START DA TELA  */
+.js .fadeInDown {
+  transform: translate3d(0, -20px, 0);
+}
+.js .fadeInUp {
+  transform: translate3d(0, 20px, 0);
+}
+.js .fadeInRight {
+  transform: translate3d(20px, 0, 0);
+}
+.js .fadeInLeft {
+  transform: translate3d(-20px, 0, 0);
+}
+
+.js [data-anime]{
+  opacity: 0;
+}
+.js .anime {
+  opacity: 1;
+  transform: none;
+  transition: transform 0.8s, opacity 0.8s;
+}
+
+
+.js .js-scroll{
+  opacity: 0;
+  transform: translate3d(-30px, 0, 0);
+  transition: .5s;
+}
+
+.js-scroll.ativo{
+  opacity: 1;
+  transform: translate3d(0, 0, 0);
+}

@@ -1,0 +1,58 @@
+.footer-conteudo{
+  padding-top: 100px;
+  padding-bottom: 80px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  justify-items: center;
+}
+
+.footer-conteudo .logo{
+  max-width: 150px;
+  max-height: 60px;
+  margin-bottom: 60px;
+}
+
+.footer-conteudo h1{
+  font-size: 2rem;
+}
+.redes{
+  margin-top: 20px;
+  display: flex;
+  gap: 30px;
+  justify-self: center;
+}
+
+.footer-redes img{
+  max-width: 50px;
+}
+
+.cnpj span {
+  font-size: 1.3rem;
+}
+
+@media (max-width:640px){
+  .footer-conteudo{
+    gap: 40px;
+  }
+
+  .footer-conteudo .logo{
+    max-width: 200px;
+    margin-bottom: 0px;
+    margin-right: 30px;
+  }
+
+  .footer-redes img{
+    max-width: 45px;
+  }
+  
+
+  .footer-conteudo a{
+    font-size: 1.3rem;
+  }
+  
+  .footer-contato {
+   margin-bottom: 25px;
+  }
+
+}

@@ -1,0 +1,68 @@
+.quem-somos-introducao{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  margin-top: 100px;
+  overflow-x: auto;
+  margin-bottom: 100px;
+}
+
+.quem-somos-introducao div{
+  min-width: 280px;
+}
+
+.quem-somos-introducao h1{
+  font-size: 3rem;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+.quem-somos-introducao span{
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+.quem-somos-introducao p{
+  padding-left: 10px;
+}
+
+.quem-somos-introducao li,
+.quem-somos-introducao p{
+  font-size: 1.1rem;
+  line-height: 1.5;
+  margin-bottom: 20px;
+  max-width: 50ch;
+  border-left: 2px solid var(--cor-1);
+  border-bottom: 2px solid var(--cor-1);
+  padding-left: 20px;
+  padding-bottom: 10px;
+}
+
+.quem-somos-introducao li{
+  position: relative;
+}
+
+.quem-somos-introducao li::before{
+  content: "";
+  display: inline;
+  height: 8px;
+  width: 8px;
+  border-radius: 50%;
+  background-color: #0466c8;
+  position: absolute;
+  left: 5px;
+  top: 10px;
+}
+
+.quem-somos-tecnologia{
+  padding-right: 10px;
+}
+
+
+@media (max-width:800px){
+  .quem-somos-introducao{
+    grid-template-columns: 1fr;
+    margin-top: 60px;
+    margin-bottom: 60px;
+  }
+}

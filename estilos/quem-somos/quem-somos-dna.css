@@ -1,0 +1,40 @@
+.nosso-dna-bg{
+  background-color: var(--cor-0);
+  color: #9C9C9C;
+}
+
+.nosso-dna{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+}
+
+.nosso-dna img{
+  height: 65vh;
+  width: 100vw;
+  object-fit: cover;
+  border-radius: 0px;
+}
+
+.nosso-dna-conteudo{
+  padding: 60px 40px;
+}
+
+.nosso-dna-conteudo h1{
+  font-size: 2rem;
+  text-align: center;
+  color: #9C9C9C;
+  margin-bottom: 20px;
+}
+
+.nosso-dna-conteudo p{
+  text-align: center;
+  line-height: 1.5;
+}
+
+
+@media (max-width:800px){
+  .nosso-dna{
+    grid-template-columns: 1fr;
+  }
+}

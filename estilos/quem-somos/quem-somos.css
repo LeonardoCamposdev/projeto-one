@@ -1,0 +1,61 @@
+.quem-somos-bg {
+  background: url(../..//imagens/capa-quem-somos.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 700px;
+}
+
+.quem-somos-container {
+  max-width: 1400px;
+  margin-left: 300px;
+  padding-top: 150px;
+  display: grid;
+  grid-template-columns: 4fr 8fr;
+}
+
+.quem-somos-container h1 {
+  font-size: 4rem;
+  text-transform: uppercase;
+  line-height: 1.5;
+  margin-bottom: 40px;
+  grid-column: 1/-1;
+}
+
+.quem-somos-container img {
+  grid-column: 2;
+}
+
+
+@media (max-width:1180px){
+  .quem-somos-container{
+    margin-left: 130px;
+  }
+}
+
+@media (max-width:1015px){
+  .quem-somos-container{
+    margin-left: 40px;
+  }
+}
+
+@media (max-width:1015px){
+  .quem-somos-container{
+    grid-column: 1fr;
+  }
+
+  .quem-somos-container img {
+    grid-column: 1/-1;
+    max-width: 400px;
+  }
+}
+
+@media (max-width:600px){
+  .quem-somos-container{
+    padding-top: 200px;
+  }
+
+  .quem-somos-container img {
+    max-width: 200px;
+  }
+}
